@@ -1,0 +1,27 @@
+[
+    {
+      "look": "glowing",
+      "habitat": "dark places",
+      "behavior": "light manipulation"
+    },
+    {
+      "look": "elemental",
+      "habitat": "extreme environments",
+      "behavior": "environmental control"
+    },
+    {
+      "look": "shapeshifting",
+      "habitat": "varied landscapes",
+      "behavior": "illusion creation"
+    },
+    {
+      "look": "crystalline",
+      "habitat": "mineral-rich areas",
+      "behavior": "energy absorption"
+    },
+    {
+      "look": "ethereal",
+      "habitat": "atmospheric",
+      "behavior": "mind influence"
+    }
+  ]
