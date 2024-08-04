@@ -224,9 +224,8 @@ Let's try it with 6 monsters for each attribute instead of 3.
 | Crystalwing Drake   |              |                 |         0.385211 |
 | Aqua Wraith         |              |                 |         0.283581 |
 
-That didn't help at all!
-We still have the same issue: no monster was retrieved for all three attributes simultaneously.
-We could try to increase the number of monsters to 10 (half of the dataset!) or more, but it would result in the following shortcomings:
+In total, we retrieved 13 monsters (that is more than half of our tiny dataset!) and still have the same issue: no monster was retrieved for all three attributes simultaneously.
+We could try to increase the number of monsters further, but it would result in the following shortcomings:
 1. While not a problem for our toy task, in production it will result in noticeably longer search time.
 2. With more attributes, the number of monsters to retrieve for every attribute will grow exponentially.
 3. And there is still no guarantee that this will result in retrieval of monsters that satisfy all criteria at once.
